@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamistry - Premium Makeup</title>
+    
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to Font-awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-------------------------------------- Header Section -------------------------------------->
+
+    <header>
+        <div class="logo">Glamistry</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">
+                <img src="/images/magnifying-glass.png" alt="search-icon" class="search-icon">
+            </button>
+        </div>        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <i class="fa-regular fa-user user"></i>
+    </header>
+
+
+    <!-------------------------------------- Hero Section -------------------------------------->
+
+    <section class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="/videos/video2.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div> 
+        <div class="hero-content">
+
+            <!-- Left Side: Text -->
+            <div class="hero-text">
+                <h1>Premium Makeup for a Confident and Beautiful You !</h1>
+                <p>Step into a world where beauty has no limits. Our expertly crafted makeup collection blends glamour with innovation, helping you express your unique style effortlessly.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            
+            <!-- Right Side: Box with Video -->
+            <div class="video-box">
+                <video autoplay loop>
+                    <source src="/videos/hero-box.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-------------------------------------- Featured Products Section ---------------------------------->
+    <section class="featured-products">
+
+        <h2>Our Best-Selling Makeup</h2>
+
+        <!-- 1st row products -->
+        <div class="product-grid">
+            <div class="product-card">
+                <img class="product-img" src="/images/lipstick1.jpg" alt="Luxury Lipstick"
+                    onmouseover="this.src='/images/lipstick2.jpg';"
+                    onmouseout="this.src='/images/lipstick1.jpg';">
+                <h3>Long-Lasting Velvet Matte Lipstick</h3>
+                <p>$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/images/lipstick3.webp" alt="Glam Eyeshadow Palette"
+                    onmouseover="this.src='/images/lipstick4.webp';"
+                    onmouseout="this.src='/images/lipstick3.webp';">
+                <h3>Glossy Liquid Lipstick Rosy Shade</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/images/lipstick5.webp" alt="Flawless Foundation"
+                    onmouseover="this.src='/images/lipstick6.webp';"
+                    onmouseout="this.src='/images/lipstick5.webp';">
+                <h3>Flawless Hydrating Lip Gloss</h3>
+                <p>$24.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/images/lipstick7.webp" alt="Flawless Foundation"
+                    onmouseover="this.src='/images/lipstick8.webp';"
+                    onmouseout="this.src='/images/lipstick7.webp';">
+                <h3>Long-Lasting Liquid Lipstick</h3>
+                <p>$24.99</p>
+                <button>Add to Cart</button>
+            </div>
+            
+        </div>
+
+        <!-- 2nd row products -->
+        <div class="product-grid">
+            <div class="product-card">
+                <img class="product-img" src="/images/eyeshadow1.jpg" alt="Luxury Lipstick"
+                    onmouseover="this.src='/images/eyeshadow2.jpeg';"
+                    onmouseout="this.src='/images/eyeshadow1.jpg';">
+                <h3>Smoky Eyeshadow Palette</h3>
+                <p>$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/images/eyeshadow3.webp" alt="Glam Eyeshadow Palette"
+                    onmouseover="this.src='/images/eyeshadow4.png';"
+                    onmouseout="this.src='/images/eyeshadow3.webp';">
+                <h3>Glitter Eyeshadow Pot Sparkles</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/images/mascara1.webp" alt="Flawless Foundation"
+                    onmouseover="this.src='/images/mascara2.webp';"
+                    onmouseout="this.src='/images/mascara1.webp';">
+                <h3>Smokey Waterproof Mascara</h3>
+                <p>$24.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/images/eyeliner1.png" alt="Flawless Foundation"
+                    onmouseover="this.src='/images/eyeliner2.jpg';"
+                    onmouseout="this.src='/images/eyeliner1.png';">
+                <h3>Precision Black Eyeliner Pen</h3>
+                <p>$24.99</p>
+                <button>Add to Cart</button>
+            </div>
+            
+        </div>
+
+        <!-- 3rd row products -->
+        <div class="product-grid">
+            <div class="product-card">
+                <img class="product-img" src="/images/foundation1.webp" alt="Luxury Lipstick"
+                    onmouseover="this.src='/images/foundation2.jpg';"
+                    onmouseout="this.src='/images/foundation1.webp';">
+                <h3>Flawless Liquid Foundation</h3>
+                <p>$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/images/bb1.jpg" alt="Glam Eyeshadow Palette"
+                    onmouseover="this.src='/images/bb2.webp';"
+                    onmouseout="this.src='/images/bb1.jpg';">
+                <h3>Flawless Lightweight BB Cream</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/images/powder1.jpg" alt="Flawless Foundation"
+                    onmouseover="this.src='/images/powder2.webp';"
+                    onmouseout="this.src='/images/powder1.jpg';">
+                <h3>Silk - Finish Setting Powder</h3>
+                <p>$24.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="/images/contour1.webp" alt="Flawless Foundation"
+                    onmouseover="this.src='/images/contour2.jpeg';"
+                    onmouseout="this.src='/images/contour1.webp';">
+                <h3>Creamy Concealer Stick - Contour Stick</h3>
+                <p>$24.99</p>
+                <button>Add to Cart</button>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-------------------------------------- Makeup Tips & Blog Section -------------------------------------->
+
+    <section class="makeup-tips">
+        <h2>Beauty <img src="/animation/animation.gif" alt="error" width="60px" height="60px"> Tips & Tricks</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="/images/blog1.webp" alt="Flawless Skin Tips">
+                <div class="blog-content">
+                    <h3>Achieve Flawless Skin</h3>
+                    <p>Discover the secrets to a glowing complexion with the right skincare and makeup routine.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="/images/blog2.avif" alt="Perfect Lipstick Guide">
+                <div class="blog-content">
+                    <h3>How to Apply Lipstick Perfectly</h3>
+                    <p>Master the art of applying lipstick for a long-lasting, flawless look.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="/images/blog3.jpg" alt="Smokey Eye Tutorial">
+                <div class="blog-content">
+                    <h3>Smokey Eye Makeup Tutorial</h3>
+                    <p>Step-by-step guide to achieving a classic smokey eye for any occasion.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------- Shop by Category Section -------------------------------------->
+
+    <section class="shop-category">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="/images/lipsticks.webp" alt="Lipsticks">
+                <h3>Lipsticks</h3>
+            </div>
+            <div class="category-card">
+                <img src="/images/eyeshadows.jpeg" alt="Eyeshadows">
+                <h3>Eyeshadows</h3>
+            </div>
+            <div class="category-card">
+                <img src="/images/foundation.jpg" alt="Foundations">
+                <h3>Foundations</h3>
+            </div>
+            <div class="category-card">
+                <img src="/images/blush.webp" alt="Blush">
+                <h3>Blush</h3>
+            </div>
+            <div class="category-card">
+                <img src="/images/highlighter.jpg" alt="Highlighter">
+                <h3>Highlighter</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------- Exclusive Offers & Discounts Section --------------------------------->
+
+    <section class="exclusive-offers">
+        <h2>Exclusive Offers Just for You!</h2>
+        <div class="offers-grid">
+            <div class="offer-card">
+                <div class="offer-details">
+                    <h3>Buy 1 Get 1 Free - Lipsticks</h3>
+                    <p>Limited-time offer on our premium lipsticks. Get yours now!</p>
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="offer-details">
+                    <h3>Flat 30% Off - Eyeshadows</h3>
+                    <p>Enhance your eye look with our high-pigment eyeshadow palettes.</p>
+                    <a href="#">Grab the Deal</a>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="offer-details">
+                    <h3>Foundation Bundle - 20% Off</h3>
+                    <p>Get the perfect shade with our foundation bundle deal. Don't miss the chance!</p>
+                    <a href="#">Get the Bundle</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------- Customer Reviews & Testimonials Section --------------------------------->
+
+    <section class="customer-reviews">
+        <h2>What Our Customers Say?</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <p>"The best makeup products I've ever used! The quality is amazing, and the packaging is so elegant."</p>
+                <h3>- Sarah M.</h3>
+            </div>
+            <div class="review-card">
+                <p>"Absolutely in love with the lipsticks! The shades are stunning, and they last all day!"</p>
+                <h3>- Emily R.</h3>
+            </div>
+            <div class="review-card">
+                <p>"The foundation matches my skin tone perfectly, and the formula is so lightweight and smooth!"</p>
+                <h3>- Jessica L.</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------- Newsletter Signup Section -------------------------------------->
+
+    <section class="newsletter">
+        <h2>Stay in the Glam ✨ Loop! </h2>
+        <p>Subscribe to get exclusive deals, beauty tips, and the latest trends delivered straight to your inbox.</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+
+    <!-------------------------------------- Contact Us Section -------------------------------------->
+
+    <section class="contact">
+        <h2>Get in Touch !</h2>
+        
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> support@glamistry.com</p>
+            <p><strong>Phone:</strong> +92 3045678900</p>
+            <p><strong>Follow Us:</strong> 
+                <a href="#">Instagram</a> | 
+                <a href="#">Facebook</a> | 
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </section>
+
+
+    <!-------------------------------------- Footer Section -------------------------------------->
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Brand & Description -->
+            <div class="footer-brand">
+                <h2>Glamistry</h2>
+                <p>Luxury beauty at your fingertips. Discover premium makeup, crafted for elegance and confidence.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Care -->
+            <div class="footer-care">
+                <h3>Customer Care</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media icons -->
+            <div class="footer-social">
+                <h3>Stay Connected</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="/images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="/images/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="/images/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Copyright Notice -->
+        <p class="copyright">&copy; 2025 Glamistry. All rights reserved.</p>
+        
+    </footer>
+
+
+</body>
+</html>
