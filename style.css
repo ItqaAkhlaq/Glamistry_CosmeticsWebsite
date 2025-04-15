@@ -21,9 +21,11 @@ header {
 /**************** Logo ****************/
 
 .logo {
-    font-family: 'Playfair Display', serif;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: "Lavishly Yours", cursive;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
     color: #D4AF37;
     cursor: pointer;
 }
@@ -90,6 +92,18 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #F4C2C2;
+}
+
+/**************** Cart icon ****************/
+
+.icons{
+    display: flex;
+}
+
+.icon {
+    width: 34px;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
 /**************** User icon ****************/
@@ -163,6 +177,15 @@ nav ul li a:hover {
     color: #D4AF37; 
 }
 
+.hero-text h1 img {
+    vertical-align: bottom;
+}
+
+.hero-text h1 img {
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
 .hero-text p {
     font-size: 18px;
     margin: 15px 0;
@@ -196,7 +219,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000;
+    background: #f2cfcf;
     z-index: 1;
 }
 
@@ -219,9 +242,11 @@ nav ul li a:hover {
 }
 
 .featured-products h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
     color: #7A5475;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 /*************** Product Grid ***************/
@@ -231,7 +256,8 @@ nav ul li a:hover {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 /*************** Product Card ***************/
@@ -302,9 +328,11 @@ nav ul li a:hover {
 }
 
 .makeup-tips h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
     color: #7A5475; 
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 /*************** Blog Grid ***************/
@@ -326,6 +354,7 @@ nav ul li a:hover {
     box-shadow: 0px 4px 8px;
     box-shadow: #FFFFFF;
     transition: transform 0.3s ease;
+    margin-bottom: 20px;
 }
 
 .blog-card img {
@@ -377,9 +406,11 @@ nav ul li a:hover {
 }
 
 .shop-category h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
     color: #7A5475;
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 /*************** Category Grid ***************/
@@ -401,6 +432,7 @@ nav ul li a:hover {
     text-align: center;
     box-shadow: 0px 4px 12px #FFFFFF;
     transition: transform 0.3s ease;
+    margin-bottom: 20px;
 }
 
 .category-card img {
@@ -432,9 +464,11 @@ nav ul li a:hover {
 }
 
 .exclusive-offers h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
     color: #D4AF37;
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 /*************** Offers Grid ***************/
@@ -456,6 +490,7 @@ nav ul li a:hover {
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .offer-details {
@@ -503,9 +538,11 @@ nav ul li a:hover {
 }
 
 .customer-reviews h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
     color: #7A5475;
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 /*************** Reviews Grid ***************/
@@ -526,6 +563,7 @@ nav ul li a:hover {
     padding: 20px;
     box-shadow: 0px 4px 12px #FFFFFF;
     transition: transform 0.3s ease;
+    margin-bottom: 20px;
 }
 
 .review-card p {
@@ -556,14 +594,19 @@ nav ul li a:hover {
 }
 
 .newsletter h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
     color: #D4AF37;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .newsletter p {
-    font-size: 1rem;
-    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px #D4AF37;
 }
 
 
@@ -574,6 +617,8 @@ nav ul li a:hover {
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    margin-top: 24px;
+    margin-bottom: 28px;
 }
 
 .newsletter-form input {
@@ -610,9 +655,11 @@ nav ul li a:hover {
 }
 
 .contact h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
     color: #7A5475;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 24px;
 }
 
 .contact p {
@@ -654,6 +701,7 @@ nav ul li a:hover {
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s;
+    margin-left: 30px;
 }
 
 .contact-form button:hover {
@@ -719,6 +767,7 @@ nav ul li a:hover {
 /************ Quick Links & Customer Care ***********/
 
 .footer-links h3, .footer-care h3, .footer-social h3 {
+    font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
     color: #D4AF37;
     margin-bottom: 12px;
